@@ -1,18 +1,16 @@
 # frozen_string_literal: true
 Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
-  config.omniauth :twitter, "API Key", "API Secret"
-end
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
-Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
   # config.secret_key = 'ccff0ff1a0e967f88bc3be2ed9add6d18f71609960b8daccc2efca05e8d4852f044cebab419d157f92840ae11e810744e0877e902b13ede14fe24372eb662c68'
-
+  config.omniauth :twitter, "	XVBZOoFN4tXrbKGBEH5MFLzYL", "Fn9JWhMCe5ptpnLBWhN4pTvtUt6JqB7sKNeM48k2cY9tfVOhQD
+"
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
   # config.parent_controller = 'DeviseController'
