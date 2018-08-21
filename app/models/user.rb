@@ -22,4 +22,4 @@ class User < ApplicationRecord
       super
     end
   end
-end　
+end
